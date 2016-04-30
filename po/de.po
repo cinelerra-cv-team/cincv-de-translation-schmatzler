@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinelerra 2.3\n"
 "Report-Msgid-Bugs-To: cinelerra@lists.cinelerra-cv.org\n"
-"POT-Creation-Date: 2016-04-29 13:14+0200\n"
-"PO-Revision-Date: 2016-04-29 13:19+0200\n"
+"POT-Creation-Date: 2016-04-30 12:35+0200\n"
+"PO-Revision-Date: 2016-04-30 12:42+0200\n"
 "Last-Translator: Danny Schmarsel <danny@schmarsel.de>\n"
 "Language-Team: de <de@li.org>\n"
 "Language: de\n"
@@ -71,7 +71,7 @@ msgid "Device path:"
 msgstr "Gerätepfad:"
 
 #: cinelerra/adeviceprefs.C:285 cinelerra/adeviceprefs.C:359
-#: cinelerra/assetedit.C:318 cinelerra/fileformat.C:85
+#: cinelerra/assetedit.C:319 cinelerra/fileformat.C:85
 msgid "Bits:"
 msgstr "Bits:"
 
@@ -120,126 +120,126 @@ msgstr "verblassen"
 msgid "pan"
 msgstr "Schwenk"
 
-#: cinelerra/assetedit.C:153
+#: cinelerra/assetedit.C:154
 msgid "Asset Info"
 msgstr "Asset-Info"
 
-#: cinelerra/assetedit.C:210
+#: cinelerra/assetedit.C:211
 msgid "Asset path"
 msgstr "Asset-Pfad"
 
-#: cinelerra/assetedit.C:210
+#: cinelerra/assetedit.C:211
 msgid "Select a file for this asset:"
 msgstr "Wählen Sie eine Datei für dieses Asset:"
 
-#: cinelerra/assetedit.C:213
+#: cinelerra/assetedit.C:214
 msgid "File format:"
 msgstr "Dateiformat:"
 
-#: cinelerra/assetedit.C:231
+#: cinelerra/assetedit.C:232
 msgid "Bytes:"
 msgstr "Bytes:"
 
-#: cinelerra/assetedit.C:250
+#: cinelerra/assetedit.C:251
 msgid "Bitrate (bits/sec):"
 msgstr "Bitrate (Bits/s):"
 
-#: cinelerra/assetedit.C:264 cinelerra/formattools.C:171
+#: cinelerra/assetedit.C:265 cinelerra/formattools.C:171
 msgid "Audio:"
 msgstr "Audio:"
 
-#: cinelerra/assetedit.C:270 cinelerra/assetedit.C:409 cinelerra/fileexr.C:599
+#: cinelerra/assetedit.C:271 cinelerra/assetedit.C:410 cinelerra/fileexr.C:599
 #: cinelerra/filemov.C:1453 cinelerra/filemov.C:1744
 #: cinelerra/filesndfile.C:398 cinelerra/filetga.C:931 cinelerra/filetiff.C:611
 msgid "Compression:"
 msgstr "Kompression:"
 
-#: cinelerra/assetedit.C:281 cinelerra/fileformat.C:73 cinelerra/new.C:277
+#: cinelerra/assetedit.C:282 cinelerra/fileformat.C:73 cinelerra/new.C:277
 #: cinelerra/setformat.C:374 plugins/livevideo/livevideo.C:225
 msgid "Channels:"
 msgstr "Kanäle:"
 
-#: cinelerra/assetedit.C:298 cinelerra/fileformat.C:79
+#: cinelerra/assetedit.C:299 cinelerra/fileformat.C:79
 msgid "Sample rate:"
 msgstr "Abtastrate:"
 
-#: cinelerra/assetedit.C:339 cinelerra/fileformat.C:98
+#: cinelerra/assetedit.C:340 cinelerra/fileformat.C:98
 msgid "Header length:"
 msgstr "Header-Länge:"
 
 #. printf("FileFormat::create_objects_ 1 %d\n", asset->byte_order);
-#: cinelerra/assetedit.C:351 cinelerra/fileformat.C:105
+#: cinelerra/assetedit.C:352 cinelerra/fileformat.C:105
 #: cinelerra/filesndfile.C:417
 msgid "Byte order:"
 msgstr "Byteanordnung:"
 
-#: cinelerra/assetedit.C:372 cinelerra/assetedit.C:777
+#: cinelerra/assetedit.C:373 cinelerra/assetedit.C:728
 msgid "Lo-Hi"
 msgstr "Lo-Hi"
 
-#: cinelerra/assetedit.C:374 cinelerra/assetedit.C:794
+#: cinelerra/assetedit.C:375 cinelerra/assetedit.C:745
 msgid "Hi-Lo"
 msgstr "Hi-Lo"
 
-#: cinelerra/assetedit.C:388
+#: cinelerra/assetedit.C:389
 msgid "Values are unsigned"
 msgstr "Werte sind vorzeichenlos"
 
-#: cinelerra/assetedit.C:390 cinelerra/assetedit.C:811
+#: cinelerra/assetedit.C:391 cinelerra/assetedit.C:762
 #: cinelerra/fileformat.C:188
 msgid "Values are signed"
 msgstr "Werte sind vorzeichenbehaftet"
 
 #. printf("FormatTools::create_objects 8\n");
-#: cinelerra/assetedit.C:402 cinelerra/formattools.C:208
+#: cinelerra/assetedit.C:403 cinelerra/formattools.C:208
 msgid "Video:"
 msgstr "Video:"
 
-#: cinelerra/assetedit.C:420 cinelerra/setformat.C:414
+#: cinelerra/assetedit.C:421 cinelerra/setformat.C:414
 msgid "Frame rate:"
 msgstr "Abtastrate:"
 
-#: cinelerra/assetedit.C:430 cinelerra/setformat.C:429
+#: cinelerra/assetedit.C:431 cinelerra/setformat.C:429
 #: plugins/freeverb/freeverb.C:330
 msgid "Width:"
 msgstr "Breite:"
 
-#: cinelerra/assetedit.C:437 cinelerra/setformat.C:436
+#: cinelerra/assetedit.C:438 cinelerra/setformat.C:436
 msgid "Height:"
 msgstr "Höhe:"
 
-#: cinelerra/assetedit.C:446
+#: cinelerra/assetedit.C:447
 msgid "Subtitle tracks:"
 msgstr "Untertitelspuren:"
 
 #. --------------------
-#: cinelerra/assetedit.C:454
+#: cinelerra/assetedit.C:455
 msgid "Fix interlacing:"
 msgstr "Interlacing korrigieren:"
 
 #. --------------------
-#: cinelerra/assetedit.C:459
+#: cinelerra/assetedit.C:460
 msgid "Asset's interlacing:"
 msgstr "Asset's Interlacing:"
 
 #. --------------------
-#: cinelerra/assetedit.C:473
+#: cinelerra/assetedit.C:475
 msgid "Interlace correction:"
 msgstr "Interlace-Korrektur:"
 
-#: cinelerra/assetedit.C:487 cinelerra/loadfile.C:486
+#: cinelerra/assetedit.C:490 cinelerra/loadfile.C:486
 msgid "Reel Name:"
 msgstr "Bandname:"
 
-#: cinelerra/assetedit.C:493 cinelerra/loadfile.C:500
+#: cinelerra/assetedit.C:496 cinelerra/loadfile.C:500
 msgid "Reel Number:"
 msgstr "Bandnummer:"
 
-#: cinelerra/assetedit.C:499
+#: cinelerra/assetedit.C:502
 msgid "Time Code Start:"
 msgstr "Timecode-Start:"
 
-#: cinelerra/assetedit.C:593
+#: cinelerra/assetedit.C:596
 msgid "Automatically Fix Interlacing"
 msgstr "Automatisch Interlacing korrigieren"
 
@@ -436,8 +436,8 @@ msgid "Timed"
 msgstr "Zeitlich beschränkt"
 
 #: cinelerra/batch.C:183 cinelerra/batchrender.C:905 cinelerra/file.C:1335
-#: cinelerra/filemov.C:1246 cinelerra/loadmode.C:84
-#: plugins/timefront/timefront.C:421
+#: cinelerra/filemov.C:1246 cinelerra/loadmode.C:84 cinelerra/mwindow.C:837
+#: cinelerra/mwindow.C:848 plugins/timefront/timefront.C:421
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -1072,7 +1072,7 @@ msgid "Mask"
 msgstr "Maske"
 
 #: cinelerra/cwindowtool.C:1937 cinelerra/recordgui.C:178
-#: plugins/denoisemjpeg/denoisemjpeg.C:408 plugins/lens/lens.C:634
+#: plugins/denoisemjpeg/denoisemjpeg.C:369 plugins/lens/lens.C:634
 #: plugins/overlay/overlay.C:262
 msgid "Mode:"
 msgstr "Modus:"
@@ -1715,7 +1715,7 @@ msgstr "Quantisierung:"
 msgid "Bitrate tolerance:"
 msgstr "Bitraten-Toleranz:"
 
-#: cinelerra/filemov.C:1922 plugins/denoisemjpeg/denoisemjpeg.C:300
+#: cinelerra/filemov.C:1922 plugins/denoisemjpeg/denoisemjpeg.C:296
 msgid "Interlaced"
 msgstr "Interlaced"
 
@@ -1899,7 +1899,7 @@ msgstr "Keyframe-Frequenz:"
 msgid "Keyframe force frequency:"
 msgstr "Keyframe-Frequenz (erzwungen:)"
 
-#: cinelerra/fileogg.C:2224 plugins/denoisemjpeg/denoisemjpeg.C:392
+#: cinelerra/fileogg.C:2224 plugins/denoisemjpeg/denoisemjpeg.C:357
 #: plugins/greycstoration/greycstorationwindow.C:57
 msgid "Sharpness:"
 msgstr "Schärfe:"
@@ -2777,33 +2777,62 @@ msgstr ""
 "MWindow::init_theme: Standard-Design %s fehlt.\n"
 "Vielleicht ein Problem mit der Installation\n"
 
-#: cinelerra/mwindow.C:1036
+#: cinelerra/mwindow.C:840
+msgid "Top Fields First"
+msgstr "Obere Felder zuerst"
+
+#: cinelerra/mwindow.C:843
+msgid "Bottom Fields First"
+msgstr "Untere Felder zuerst"
+
+#: cinelerra/mwindow.C:846
+msgid "Not Interlaced"
+msgstr "Keine Halbbilder"
+
+#: cinelerra/mwindow.C:856 plugins/deinterlace/deinterwindow.C:284
+#: plugins/motion/motionwindow.C:878 plugins/motion/motionwindow.C:898
+msgid "Do Nothing"
+msgstr "Tue nichts"
+
+#: cinelerra/mwindow.C:859
+msgid "Shift Up 1 pixel"
+msgstr "1px hochschalten"
+
+#: cinelerra/mwindow.C:862
+msgid "Shift Down 1 pixel"
+msgstr "1px runterschalten"
+
+#: cinelerra/mwindow.C:864
+msgid "Error!"
+msgstr "Fehler!"
+
+#: cinelerra/mwindow.C:1083
 #, c-format
 msgid "Failed to open %s"
 msgstr "Konnte %s nicht öffnen"
 
-#: cinelerra/mwindow.C:1084
+#: cinelerra/mwindow.C:1131
 msgid "'s format couldn't be determined."
 msgstr "'s Format konnte nicht bestimmt werden."
 
-#: cinelerra/mwindow.C:1265
+#: cinelerra/mwindow.C:1312
 msgid "load"
 msgstr "laden"
 
-#: cinelerra/mwindow.C:1408
+#: cinelerra/mwindow.C:1455
 msgid "Initializing GUI"
 msgstr "Initialisiere graphische Oberfläche"
 
-#: cinelerra/mwindow.C:2054
+#: cinelerra/mwindow.C:2101
 #, c-format
 msgid "Couldn't open %s for writing."
 msgstr "Konnte %s nicht zum Schreiben öffnen."
 
-#: cinelerra/mwindow.C:2143
+#: cinelerra/mwindow.C:2190
 msgid "remove assets"
 msgstr "entferne Assets"
 
-#: cinelerra/mwindow.C:2301
+#: cinelerra/mwindow.C:2348
 #, c-format
 msgid "Using %s."
 msgstr "Verwende %s."
@@ -3062,7 +3091,7 @@ msgstr "Seitenverhältnis:"
 msgid "Interlace mode:"
 msgstr "Interlace-Modus:"
 
-#: cinelerra/new.C:909
+#: cinelerra/new.C:903
 msgid "Auto aspect ratio"
 msgstr "Automatisches Seitenverhältnis"
 
@@ -3464,7 +3493,7 @@ msgid "Preferences"
 msgstr "Einstellungen"
 
 #: cinelerra/preferencesthread.C:531 cinelerra/preferencesthread.C:533
-#: cinelerra/setformat.C:929
+#: cinelerra/setformat.C:930
 msgid "Apply"
 msgstr "Anwenden"
 
@@ -3998,12 +4027,12 @@ msgstr "B-Verhältnis:"
 msgid "H Ratio:"
 msgstr "H-Verhältnis:"
 
-#: cinelerra/setformat.C:712
+#: cinelerra/setformat.C:713
 #, c-format
 msgid "%d degrees"
 msgstr "%d Grad"
 
-#: cinelerra/setformat.C:891
+#: cinelerra/setformat.C:892
 msgid "Auto"
 msgstr "Automatisch"
 
@@ -4172,6 +4201,14 @@ msgstr "Anhängen..."
 msgid "Length"
 msgstr "Länge"
 
+#: cinelerra/vdevicebuz.C:327
+msgid "Composite"
+msgstr "Composite"
+
+#: cinelerra/vdevicebuz.C:328
+msgid "S-Video"
+msgstr "S-Video"
+
 #: cinelerra/vdeviceprefs.C:218
 msgid "Host:"
 msgstr "Rechner:"
@@ -4209,30 +4246,31 @@ msgid "mode"
 msgstr "Modus"
 
 #: cinelerra/vpatchgui.C:356 cinelerra/vpatchgui.C:384
+#: plugins/overlay/overlay.C:181 plugins/overlay/overlay.C:209
 msgid "Normal"
 msgstr "Normal"
 
-#: cinelerra/vpatchgui.C:360
+#: cinelerra/vpatchgui.C:360 plugins/overlay/overlay.C:185
 msgid "Replace"
 msgstr "Ersetze"
 
-#: cinelerra/vpatchgui.C:364
+#: cinelerra/vpatchgui.C:364 plugins/overlay/overlay.C:189
 msgid "Addition"
 msgstr "Addiere"
 
-#: cinelerra/vpatchgui.C:368
+#: cinelerra/vpatchgui.C:368 plugins/overlay/overlay.C:193
 msgid "Subtract"
 msgstr "Subtrahiere"
 
-#: cinelerra/vpatchgui.C:372
+#: cinelerra/vpatchgui.C:372 plugins/overlay/overlay.C:197
 msgid "Multiply"
 msgstr "Multipliziere"
 
-#: cinelerra/vpatchgui.C:376
+#: cinelerra/vpatchgui.C:376 plugins/overlay/overlay.C:201
 msgid "Divide"
 msgstr "Dividiere"
 
-#: cinelerra/vpatchgui.C:380
+#: cinelerra/vpatchgui.C:380 plugins/overlay/overlay.C:205
 msgid "Max"
 msgstr "Max"
 
@@ -5011,6 +5049,19 @@ msgstr "Eingabepegel"
 msgid "Input"
 msgstr "Eingabe"
 
+# I believe this is audio-related and may confuse users when translated.
+#: plugins/compressor/compressor.C:1376 plugins/compressor/compressor.C:1381
+msgid "Trigger"
+msgstr "Trigger"
+
+#: plugins/compressor/compressor.C:1377 plugins/synthesizer/synthesizer.C:1064
+msgid "Maximum"
+msgstr "Maximum"
+
+#: plugins/compressor/compressor.C:1378
+msgid "Total"
+msgstr "Gesamt"
+
 #: plugins/compressor/compressor.C:1417
 msgid "Smooth only"
 msgstr "Nur glätten"
@@ -5033,7 +5084,7 @@ msgid "Decimate"
 msgstr "Dezimieren"
 
 #: plugins/deinterlace/deinterlace.C:100
-#: plugins/denoisemjpeg/denoisemjpeg.C:259
+#: plugins/denoisemjpeg/denoisemjpeg.C:255
 msgid "Deinterlace"
 msgstr "Deinterlace"
 
@@ -5104,11 +5155,6 @@ msgstr "Räumlicher Feldtausch"
 msgid "Temporal field swap"
 msgstr "Temporärer Feldtausch"
 
-#: plugins/deinterlace/deinterwindow.C:284 plugins/motion/motionwindow.C:878
-#: plugins/motion/motionwindow.C:898
-msgid "Do Nothing"
-msgstr "Tue nichts"
-
 #: plugins/delayaudio/delayaudio.C:55
 msgid "Delay audio"
 msgstr "Audioverzögerung"
@@ -5142,39 +5188,35 @@ msgstr "Der Keyframe ist der Start der Referenz"
 msgid "DenoiseFFT"
 msgstr "EntrauschenFFT"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:281
+#: plugins/denoisemjpeg/denoisemjpeg.C:277
 msgid "Progressive"
 msgstr "Progressiv"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:319
+#: plugins/denoisemjpeg/denoisemjpeg.C:315
 msgid "Fast"
 msgstr "Schnell"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:380
+#: plugins/denoisemjpeg/denoisemjpeg.C:345
 msgid "Search radius:"
 msgstr "Suchradius:"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:384
+#: plugins/denoisemjpeg/denoisemjpeg.C:349
 msgid "Pass 1 threshold:"
 msgstr "Schranke im 1. Durchlauf:"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:388
+#: plugins/denoisemjpeg/denoisemjpeg.C:353
 msgid "Pass 2 threshold:"
 msgstr "Schranke im 2. Durchlauf:"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:396
+#: plugins/denoisemjpeg/denoisemjpeg.C:361
 msgid "Luma contrast:"
 msgstr "Luminanz-Kontrast:"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:400
+#: plugins/denoisemjpeg/denoisemjpeg.C:365
 msgid "Chroma contrast:"
 msgstr "Chrominanz-Kontrast:"
 
-#: plugins/denoisemjpeg/denoisemjpeg.C:404
-msgid "Delay frames:"
-msgstr "Frame-Verzögerung:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:469
+#: plugins/denoisemjpeg/denoisemjpeg.C:430
 msgid "Denoise video2"
 msgstr "Video Entrauschen2"
 
@@ -6500,10 +6542,6 @@ msgstr "Hinzufügen"
 msgid "Zero"
 msgstr "Null"
 
-#: plugins/synthesizer/synthesizer.C:1064
-msgid "Maximum"
-msgstr "Maximum"
-
 #: plugins/synthesizer/synthesizer.C:1122
 msgid "Slope"
 msgstr "Gefälle"
@@ -6844,6 +6882,9 @@ msgstr "YUV"
 #: plugins/zoomblur/zoomblur.C:406
 msgid "Zoom Blur"
 msgstr "Zoom-Unschärfe"
+
+#~ msgid "Delay frames:"
+#~ msgstr "Frame-Verzögerung:"
 
 #~ msgid "Syt Offset:"
 #~ msgstr "SYT-Versatz:"
