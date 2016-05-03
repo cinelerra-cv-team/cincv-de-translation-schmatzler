@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinelerra 2.3\n"
 "Report-Msgid-Bugs-To: cinelerra@lists.cinelerra-cv.org\n"
-"POT-Creation-Date: 2016-04-30 12:35+0200\n"
-"PO-Revision-Date: 2016-04-30 12:42+0200\n"
+"POT-Creation-Date: 2016-05-03 18:07+0200\n"
+"PO-Revision-Date: 2016-05-03 18:07+0200\n"
 "Last-Translator: Danny Schmarsel <danny@schmarsel.de>\n"
 "Language-Team: de <de@li.org>\n"
 "Language: de\n"
@@ -337,65 +337,64 @@ msgstr "Schnelles Vorspulen ( Enter )"
 msgid "Jump to end ( End )"
 msgstr "Zum Ende springen ( Ende )"
 
-#: cinelerra/awindowgui.C:325
+#: cinelerra/awindowgui.C:313
 msgid "Resources"
 msgstr "Ressourcen"
 
-#. printf("AWindowGUI::create_objects 1\n");
-#: cinelerra/awindowgui.C:376 cinelerra/awindowgui.C:973
-#: cinelerra/awindowgui.C:1000 plugins/titler/title.C:1087
+#: cinelerra/awindowgui.C:357 cinelerra/awindowgui.C:839
+#: cinelerra/awindowgui.C:866 plugins/titler/title.C:1087
 msgid "Title"
 msgstr "Titel"
 
-#: cinelerra/awindowgui.C:377 cinelerra/awindowgui.C:974
+#: cinelerra/awindowgui.C:358 cinelerra/awindowgui.C:840
 msgid "Comments"
 msgstr "Kommentare"
 
-#: cinelerra/awindowgui.C:999
+#: cinelerra/awindowgui.C:865
 msgid "Time Stamps"
 msgstr "Zeitstempel"
 
-#: cinelerra/awindowgui.C:1508
+#: cinelerra/awindowgui.C:1323
 msgid "New bin"
 msgstr "Neuer Behälter"
 
-#: cinelerra/awindowgui.C:1522
+#: cinelerra/awindowgui.C:1338
 msgid "Delete bin"
 msgstr "Lösche Behälter"
 
-#: cinelerra/awindowgui.C:1540
+#: cinelerra/awindowgui.C:1357
 msgid "Rename bin"
 msgstr "Umbenennen des Behälters"
 
-#: cinelerra/awindowgui.C:1553
+#: cinelerra/awindowgui.C:1371
 msgid "Delete asset from disk"
 msgstr "Lösche Asset von Platte"
 
-#: cinelerra/awindowgui.C:1566
+#: cinelerra/awindowgui.C:1385
 msgid "Delete asset from project"
 msgstr "Lösche Asset aus Projekt"
 
-#: cinelerra/awindowgui.C:1579
+#: cinelerra/awindowgui.C:1399
 msgid "Edit information on asset"
 msgstr "Bearbeiten der Informationen zum Asset"
 
-#: cinelerra/awindowgui.C:1593
+#: cinelerra/awindowgui.C:1414
 msgid "Redraw index"
 msgstr "Index neuzeichnen"
 
-#: cinelerra/awindowgui.C:1606
+#: cinelerra/awindowgui.C:1428
 msgid "Paste asset on recordable tracks"
 msgstr "Asset in aufnehmbare Spuren einfügen"
 
-#: cinelerra/awindowgui.C:1619
+#: cinelerra/awindowgui.C:1442
 msgid "Append asset in new tracks"
 msgstr "Asset in neue Spuren anhängen"
 
-#: cinelerra/awindowgui.C:1632
+#: cinelerra/awindowgui.C:1456
 msgid "View asset"
 msgstr "Asset betrachten"
 
-#: cinelerra/awindowgui.C:1666 cinelerra/channeledit.C:628
+#: cinelerra/awindowgui.C:1487 cinelerra/channeledit.C:628
 msgid "Edit..."
 msgstr "Bearbeiten ..."
 
@@ -4757,7 +4756,10 @@ msgstr ""
 "BrennenderTV von EffectTV\n"
 "Copyright (C) 2001 FUKUCHI Kentarou"
 
-#: plugins/cdripper/cdripper.C:58
+#: plugins/cdripper/cdripper.C:58 plugins/cdripper/cdripper.C:132
+#: plugins/cdripper/cdripper.C:164 plugins/cdripper/cdripper.C:180
+#: plugins/cdripper/cdripper.C:196 plugins/cdripper/cdripper.C:211
+#: plugins/cdripper/cdripper.C:229 plugins/cdripper/cdripper.C:241
 msgid "CD Ripper"
 msgstr "CD-Ripper"
 
