@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinelerra 2.3\n"
 "Report-Msgid-Bugs-To: cinelerra@lists.cinelerra-cv.org\n"
-"POT-Creation-Date: 2016-05-03 18:07+0200\n"
-"PO-Revision-Date: 2016-05-03 18:07+0200\n"
+"POT-Creation-Date: 2016-05-12 16:26+0200\n"
+"PO-Revision-Date: 2016-05-12 16:28+0200\n"
 "Last-Translator: Danny Schmarsel <danny@schmarsel.de>\n"
 "Language-Team: de <de@li.org>\n"
 "Language: de\n"
@@ -337,64 +337,80 @@ msgstr "Schnelles Vorspulen ( Enter )"
 msgid "Jump to end ( End )"
 msgstr "Zum Ende springen ( Ende )"
 
-#: cinelerra/awindowgui.C:313
+#: cinelerra/awindowgui.C:56
+msgid "Audio Effects"
+msgstr "Audio-Effekte"
+
+#: cinelerra/awindowgui.C:57
+msgid "Video Effects"
+msgstr "Video-Effekte"
+
+#: cinelerra/awindowgui.C:58
+msgid "Audio Transitions"
+msgstr "Audio-Übergänge"
+
+#: cinelerra/awindowgui.C:59
+msgid "Video Transitions"
+msgstr "Video-Übergänge"
+
+#: cinelerra/awindowgui.C:60
+msgid "Labels"
+msgstr "Marken"
+
+#: cinelerra/awindowgui.C:61
+msgid "Clips"
+msgstr "Clips"
+
+#: cinelerra/awindowgui.C:62
+msgid "Media"
+msgstr "Medien"
+
+#: cinelerra/awindowgui.C:324
 msgid "Resources"
 msgstr "Ressourcen"
 
-#: cinelerra/awindowgui.C:357 cinelerra/awindowgui.C:839
-#: cinelerra/awindowgui.C:866 plugins/titler/title.C:1087
+#: cinelerra/awindowgui.C:366 cinelerra/awindowgui.C:798
+#: cinelerra/awindowgui.C:818 plugins/titler/title.C:1087
 msgid "Title"
 msgstr "Titel"
 
-#: cinelerra/awindowgui.C:358 cinelerra/awindowgui.C:840
+#: cinelerra/awindowgui.C:367 cinelerra/awindowgui.C:799
 msgid "Comments"
 msgstr "Kommentare"
 
-#: cinelerra/awindowgui.C:865
+#: cinelerra/awindowgui.C:817
 msgid "Time Stamps"
 msgstr "Zeitstempel"
 
-#: cinelerra/awindowgui.C:1323
-msgid "New bin"
-msgstr "Neuer Behälter"
-
-#: cinelerra/awindowgui.C:1338
-msgid "Delete bin"
-msgstr "Lösche Behälter"
-
-#: cinelerra/awindowgui.C:1357
-msgid "Rename bin"
-msgstr "Umbenennen des Behälters"
-
-#: cinelerra/awindowgui.C:1371
+#: cinelerra/awindowgui.C:1250
 msgid "Delete asset from disk"
 msgstr "Lösche Asset von Platte"
 
-#: cinelerra/awindowgui.C:1385
+#: cinelerra/awindowgui.C:1264
 msgid "Delete asset from project"
 msgstr "Lösche Asset aus Projekt"
 
-#: cinelerra/awindowgui.C:1399
+#: cinelerra/awindowgui.C:1278
 msgid "Edit information on asset"
 msgstr "Bearbeiten der Informationen zum Asset"
 
-#: cinelerra/awindowgui.C:1414
+#: cinelerra/awindowgui.C:1293
 msgid "Redraw index"
 msgstr "Index neuzeichnen"
 
-#: cinelerra/awindowgui.C:1428
+#: cinelerra/awindowgui.C:1307
 msgid "Paste asset on recordable tracks"
 msgstr "Asset in aufnehmbare Spuren einfügen"
 
-#: cinelerra/awindowgui.C:1442
+#: cinelerra/awindowgui.C:1321
 msgid "Append asset in new tracks"
 msgstr "Asset in neue Spuren anhängen"
 
-#: cinelerra/awindowgui.C:1456
+#: cinelerra/awindowgui.C:1335
 msgid "View asset"
 msgstr "Asset betrachten"
 
-#: cinelerra/awindowgui.C:1487 cinelerra/channeledit.C:628
+#: cinelerra/awindowgui.C:1366 cinelerra/channeledit.C:628
 msgid "Edit..."
 msgstr "Bearbeiten ..."
 
@@ -2471,7 +2487,7 @@ msgstr "Spuren"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: cinelerra/mainmenu.C:197
+#: cinelerra/mainmenu.C:197 cinelerra/vpatchgui.C:275
 msgid "Overlay mode"
 msgstr "Overlay-Modus"
 
@@ -2805,33 +2821,33 @@ msgstr "1px runterschalten"
 msgid "Error!"
 msgstr "Fehler!"
 
-#: cinelerra/mwindow.C:1083
+#: cinelerra/mwindow.C:1082
 #, c-format
 msgid "Failed to open %s"
 msgstr "Konnte %s nicht öffnen"
 
-#: cinelerra/mwindow.C:1131
+#: cinelerra/mwindow.C:1130
 msgid "'s format couldn't be determined."
 msgstr "'s Format konnte nicht bestimmt werden."
 
-#: cinelerra/mwindow.C:1312
+#: cinelerra/mwindow.C:1311
 msgid "load"
 msgstr "laden"
 
-#: cinelerra/mwindow.C:1455
+#: cinelerra/mwindow.C:1454
 msgid "Initializing GUI"
 msgstr "Initialisiere graphische Oberfläche"
 
-#: cinelerra/mwindow.C:2101
+#: cinelerra/mwindow.C:2099
 #, c-format
 msgid "Couldn't open %s for writing."
 msgstr "Konnte %s nicht zum Schreiben öffnen."
 
-#: cinelerra/mwindow.C:2190
+#: cinelerra/mwindow.C:2188
 msgid "remove assets"
 msgstr "entferne Assets"
 
-#: cinelerra/mwindow.C:2348
+#: cinelerra/mwindow.C:2346
 #, c-format
 msgid "Using %s."
 msgstr "Verwende %s."
@@ -3033,15 +3049,11 @@ msgstr "Markierung"
 msgid "trim selection"
 msgstr "Auswahl kürzen"
 
-#: cinelerra/mwindowedit.C:2183
-msgid "new folder"
-msgstr "neuer Ordner"
-
-#: cinelerra/mwindowedit.C:2275
+#: cinelerra/mwindowedit.C:2261
 msgid "map 1:1"
 msgstr "Abbildung 1:1"
 
-#: cinelerra/mwindowedit.C:2275
+#: cinelerra/mwindowedit.C:2261
 msgid "map 5.1:2"
 msgstr "Abbildung 5.1:2"
 
@@ -3093,18 +3105,6 @@ msgstr "Interlace-Modus:"
 #: cinelerra/new.C:903
 msgid "Auto aspect ratio"
 msgstr "Automatisches Seitenverhältnis"
-
-#: cinelerra/newfolder.C:37
-msgid "New folder"
-msgstr "Neuer Ordner"
-
-#: cinelerra/newfolder.C:60
-msgid "Enter the name of the folder:"
-msgstr "Geben Sie den Namen des Ordners ein:"
-
-#: cinelerra/newfolder.C:62 cinelerra/pluginclient.C:136
-msgid "Untitled"
-msgstr "Unbenannt"
 
 #: cinelerra/patchbay.C:325 cinelerra/patchgui.C:615
 #: cinelerra/trackcanvas.C:4549
@@ -3413,6 +3413,10 @@ msgstr "%s..."
 #, c-format
 msgid "%s took %s"
 msgstr "%s benötigte %s"
+
+#: cinelerra/pluginclient.C:136
+msgid "Untitled"
+msgstr "Unbenannt"
 
 #: cinelerra/pluginclient.C:190
 #, c-format
@@ -4278,7 +4282,7 @@ msgstr "Max"
 msgid "Video %d"
 msgstr "Video %d"
 
-#: cinelerra/vwindow.C:217 cinelerra/vwindow.C:224 cinelerra/vwindowgui.C:60
+#: cinelerra/vwindow.C:195 cinelerra/vwindow.C:202 cinelerra/vwindowgui.C:60
 msgid "Viewer"
 msgstr "Ansicht"
 
@@ -6884,6 +6888,24 @@ msgstr "YUV"
 #: plugins/zoomblur/zoomblur.C:406
 msgid "Zoom Blur"
 msgstr "Zoom-Unschärfe"
+
+#~ msgid "New bin"
+#~ msgstr "Neuer Behälter"
+
+#~ msgid "Delete bin"
+#~ msgstr "Lösche Behälter"
+
+#~ msgid "Rename bin"
+#~ msgstr "Umbenennen des Behälters"
+
+#~ msgid "new folder"
+#~ msgstr "neuer Ordner"
+
+#~ msgid "New folder"
+#~ msgstr "Neuer Ordner"
+
+#~ msgid "Enter the name of the folder:"
+#~ msgstr "Geben Sie den Namen des Ordners ein:"
 
 #~ msgid "Delay frames:"
 #~ msgstr "Frame-Verzögerung:"
