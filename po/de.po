@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinelerra 2.3\n"
 "Report-Msgid-Bugs-To: cinelerra@lists.cinelerra-cv.org\n"
-"POT-Creation-Date: 2016-05-12 16:26+0200\n"
-"PO-Revision-Date: 2016-05-12 16:28+0200\n"
+"POT-Creation-Date: 2016-05-26 02:01+0200\n"
+"PO-Revision-Date: 2016-05-26 02:02+0200\n"
 "Last-Translator: Danny Schmarsel <danny@schmarsel.de>\n"
 "Language-Team: de <de@li.org>\n"
 "Language: de\n"
@@ -115,6 +115,10 @@ msgstr "VirtualAConsole::load_track Konnte %s nicht öffnen.\n"
 #: cinelerra/apatchgui.C:249 cinelerra/vpatchgui.C:211
 msgid "fade"
 msgstr "verblassen"
+
+#: cinelerra/apatchgui.C:309 cinelerra/gwindowgui.C:74 cinelerra/mainmenu.C:198
+msgid "Pan"
+msgstr "Schwenk"
 
 #: cinelerra/apatchgui.C:325
 msgid "pan"
@@ -437,7 +441,8 @@ msgstr "Datei existiert"
 #. remove(batch->get_current_asset()->path);
 #. Update GUI
 #: cinelerra/batch.C:120 cinelerra/preferencesthread.C:551
-#: cinelerra/record.C:705
+#: cinelerra/record.C:705 guicast/bcbutton.C:264 guicast/bcbutton.C:272
+#: guicast/bcbutton.C:487
 #, c-format
 msgid "OK"
 msgstr "OK"
@@ -738,11 +743,12 @@ msgstr "SECAM"
 #. mwindow->theme->vsource_x,
 #. mwindow->theme->vsource_y);
 #. source->create_objects();
-#: cinelerra/channeledit.C:185 cinelerra/plugindialog.C:279
-#: cinelerra/record.C:356 cinelerra/recordgui.C:344
-#: cinelerra/sharedlocation.C:127 cinelerra/sharedlocation.C:132
-#: cinelerra/sharedlocation.C:145 cinelerra/vwindowgui.C:231
-#: plugins/parametric/parametric.C:278
+#: cinelerra/channeledit.C:185 cinelerra/fileexr.C:192 cinelerra/fileexr.C:199
+#: cinelerra/filetiff.C:106 cinelerra/filetiff.C:112
+#: cinelerra/plugindialog.C:279 cinelerra/record.C:356
+#: cinelerra/recordgui.C:344 cinelerra/sharedlocation.C:127
+#: cinelerra/sharedlocation.C:132 cinelerra/sharedlocation.C:145
+#: cinelerra/vwindowgui.C:231 plugins/parametric/parametric.C:278
 #, c-format
 msgid "None"
 msgstr "Nichts"
@@ -892,6 +898,8 @@ msgstr "Nein"
 
 #: cinelerra/confirmquit.C:105 cinelerra/confirmquit.C:107
 #: cinelerra/preferencesthread.C:575 cinelerra/preferencesthread.C:577
+#: guicast/bcbutton.C:320 guicast/bcbutton.C:328 guicast/bcbutton.C:336
+#: guicast/bcbutton.C:514 guicast/bcbutton.C:516 guicast/bcbutton.C:523
 msgid "Cancel"
 msgstr "Abbruch"
 
@@ -1087,8 +1095,7 @@ msgid "Mask"
 msgstr "Maske"
 
 #: cinelerra/cwindowtool.C:1937 cinelerra/recordgui.C:178
-#: plugins/denoisemjpeg/denoisemjpeg.C:369 plugins/lens/lens.C:634
-#: plugins/overlay/overlay.C:262
+#: plugins/lens/lens.C:634 plugins/overlay/overlay.C:262
 msgid "Mode:"
 msgstr "Modus:"
 
@@ -1730,7 +1737,7 @@ msgstr "Quantisierung:"
 msgid "Bitrate tolerance:"
 msgstr "Bitraten-Toleranz:"
 
-#: cinelerra/filemov.C:1922 plugins/denoisemjpeg/denoisemjpeg.C:296
+#: cinelerra/filemov.C:1922
 msgid "Interlaced"
 msgstr "Interlaced"
 
@@ -1914,8 +1921,7 @@ msgstr "Keyframe-Frequenz:"
 msgid "Keyframe force frequency:"
 msgstr "Keyframe-Frequenz (erzwungen:)"
 
-#: cinelerra/fileogg.C:2224 plugins/denoisemjpeg/denoisemjpeg.C:357
-#: plugins/greycstoration/greycstorationwindow.C:57
+#: cinelerra/fileogg.C:2224 plugins/greycstoration/greycstorationwindow.C:57
 msgid "Sharpness:"
 msgstr "Schärfe:"
 
@@ -2096,10 +2102,6 @@ msgstr "Projektor Z"
 #: cinelerra/gwindowgui.C:73 cinelerra/mainmenu.C:195
 msgid "Fade"
 msgstr "Verblassen"
-
-#: cinelerra/gwindowgui.C:74 cinelerra/mainmenu.C:198
-msgid "Pan"
-msgstr "Schwenk"
 
 #: cinelerra/gwindowgui.C:75 cinelerra/recordgui.C:98
 #: plugins/parametric/parametric.C:378
@@ -3105,6 +3107,11 @@ msgstr "Interlace-Modus:"
 #: cinelerra/new.C:903
 msgid "Auto aspect ratio"
 msgstr "Automatisches Seitenverhältnis"
+
+#: cinelerra/new.C:929 cinelerra/resizetrackthread.C:211
+#: cinelerra/setformat.C:963
+msgid "Swap dimensions"
+msgstr "Abmessungen umkehren"
 
 #: cinelerra/patchbay.C:325 cinelerra/patchgui.C:615
 #: cinelerra/trackcanvas.C:4549
@@ -4425,6 +4432,10 @@ msgstr ": Neuer Ordner"
 msgid ": Delete"
 msgstr ": Löschen"
 
+#: guicast/bcrecentlist.C:40 guicast/bcrecentlist.C:52
+msgid "Choose from recently used"
+msgstr "Wähle aus zuletzt genutzten"
+
 #: guicast/bcresources.C:78
 msgid "-*-helvetica-medium-r-normal-*-10-*"
 msgstr "-*-helvetica-medium-r-normal-*-10-*"
@@ -5090,7 +5101,6 @@ msgid "Decimate"
 msgstr "Dezimieren"
 
 #: plugins/deinterlace/deinterlace.C:100
-#: plugins/denoisemjpeg/denoisemjpeg.C:255
 msgid "Deinterlace"
 msgstr "Deinterlace"
 
@@ -5193,38 +5203,6 @@ msgstr "Der Keyframe ist der Start der Referenz"
 #: plugins/denoisefft/denoisefft.C:323
 msgid "DenoiseFFT"
 msgstr "EntrauschenFFT"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:277
-msgid "Progressive"
-msgstr "Progressiv"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:315
-msgid "Fast"
-msgstr "Schnell"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:345
-msgid "Search radius:"
-msgstr "Suchradius:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:349
-msgid "Pass 1 threshold:"
-msgstr "Schranke im 1. Durchlauf:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:353
-msgid "Pass 2 threshold:"
-msgstr "Schranke im 2. Durchlauf:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:361
-msgid "Luma contrast:"
-msgstr "Luminanz-Kontrast:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:365
-msgid "Chroma contrast:"
-msgstr "Chrominanz-Kontrast:"
-
-#: plugins/denoisemjpeg/denoisemjpeg.C:430
-msgid "Denoise video2"
-msgstr "Video Entrauschen2"
 
 #: plugins/denoiseseltempavg/seltempavg.C:121
 msgid "Selective Temporal Averaging"
@@ -6888,6 +6866,30 @@ msgstr "YUV"
 #: plugins/zoomblur/zoomblur.C:406
 msgid "Zoom Blur"
 msgstr "Zoom-Unschärfe"
+
+#~ msgid "Progressive"
+#~ msgstr "Progressiv"
+
+#~ msgid "Fast"
+#~ msgstr "Schnell"
+
+#~ msgid "Search radius:"
+#~ msgstr "Suchradius:"
+
+#~ msgid "Pass 1 threshold:"
+#~ msgstr "Schranke im 1. Durchlauf:"
+
+#~ msgid "Pass 2 threshold:"
+#~ msgstr "Schranke im 2. Durchlauf:"
+
+#~ msgid "Luma contrast:"
+#~ msgstr "Luminanz-Kontrast:"
+
+#~ msgid "Chroma contrast:"
+#~ msgstr "Chrominanz-Kontrast:"
+
+#~ msgid "Denoise video2"
+#~ msgstr "Video Entrauschen2"
 
 #~ msgid "New bin"
 #~ msgstr "Neuer Behälter"
