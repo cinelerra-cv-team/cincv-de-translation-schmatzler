@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinelerra 2.3\n"
 "Report-Msgid-Bugs-To: cinelerra@lists.cinelerra-cv.org\n"
-"POT-Creation-Date: 2016-05-26 02:01+0200\n"
-"PO-Revision-Date: 2016-05-26 02:02+0200\n"
+"POT-Creation-Date: 2016-05-27 05:45+0200\n"
+"PO-Revision-Date: 2016-05-27 05:45+0200\n"
 "Last-Translator: Danny Schmarsel <danny@schmarsel.de>\n"
 "Language-Team: de <de@li.org>\n"
 "Language: de\n"
@@ -1168,108 +1168,84 @@ msgstr "Lösche alle Indizes in %s?"
 msgid "Delete All Indexes"
 msgstr "Alle Indizes entfernen"
 
-#: cinelerra/editpanel.C:479
+#: cinelerra/editpanel.C:457
 msgid "In point ( [ )"
 msgstr "Eingabe-Punkt ( [ )"
 
-#: cinelerra/editpanel.C:504
+#: cinelerra/editpanel.C:482
 msgid "Out point ( ] )"
 msgstr "Ausgabe-Punkt ( ] )"
 
-#: cinelerra/editpanel.C:535
+#: cinelerra/editpanel.C:513
 msgid "Next label ( ctrl -> )"
 msgstr "Nächste Marke ( Strg -> )"
 
-#: cinelerra/editpanel.C:562
+#: cinelerra/editpanel.C:540
 msgid "Previous label ( ctrl <- )"
 msgstr "Vorherige Marke ( Strg <- )"
 
-#: cinelerra/editpanel.C:584
-msgid "Lift"
-msgstr "Anheben"
-
-#: cinelerra/editpanel.C:599
+#: cinelerra/editpanel.C:562
 msgid "Overwrite ( b )"
 msgstr "Überschreiben ( b )"
 
-#: cinelerra/editpanel.C:624
-msgid "Extract"
-msgstr "Extrahieren"
-
-#: cinelerra/editpanel.C:640
+#: cinelerra/editpanel.C:587
 msgid "To clip ( i )"
 msgstr "Zu Clip ( i )"
 
-#: cinelerra/editpanel.C:667
+#: cinelerra/editpanel.C:614
 msgid "Manual goto ( g )"
 msgstr "Manelles Gehen zu ( g )"
 
-#: cinelerra/editpanel.C:695
+#: cinelerra/editpanel.C:642
 msgid "Splice ( v )"
 msgstr "Verbinden ( v )"
 
-#: cinelerra/editpanel.C:720
+#: cinelerra/editpanel.C:667
 msgid "Cut ( x )"
 msgstr "Ausschneiden ( x )"
 
-#: cinelerra/editpanel.C:745
+#: cinelerra/editpanel.C:692
 msgid "Copy ( c )"
 msgstr "Kopieren ( c )"
 
-#: cinelerra/editpanel.C:768
-msgid "Append to end of track"
-msgstr "Anhängen an das Ende der Spur"
-
-#: cinelerra/editpanel.C:786
-msgid "Insert before beginning of track"
-msgstr "Einfügen vor dem Beginn der Spur"
-
-#: cinelerra/editpanel.C:805
+#: cinelerra/editpanel.C:715
 msgid "Paste ( v )"
 msgstr "Einfügen ( v )"
 
-#: cinelerra/editpanel.C:832
-msgid "Set transition"
-msgstr "Übergang festlegen"
-
-#: cinelerra/editpanel.C:847
-msgid "Set presentation up to current position"
-msgstr "Präsentation bis zur aktuellen Position festlegen"
-
-#: cinelerra/editpanel.C:862
+#: cinelerra/editpanel.C:740
 msgid "Undo ( z )"
 msgstr "Rückgängig ( z )"
 
-#: cinelerra/editpanel.C:884
+#: cinelerra/editpanel.C:762
 msgid "Redo ( shift Z )"
 msgstr "Erneut ( Shift Z )"
 
-#: cinelerra/editpanel.C:910
+#: cinelerra/editpanel.C:788
 msgid "Toggle label at current position ( l )"
 msgstr "Markierung an aktueller Position anzeigen ( l )"
 
-#: cinelerra/editpanel.C:939
+#: cinelerra/editpanel.C:817
 msgid "Fit selection to display ( f )"
 msgstr "Auswahl an Anzeige anpassen ( f )"
 
-#: cinelerra/editpanel.C:972
+#: cinelerra/editpanel.C:850
 msgid "Fit all autos to display ( Alt + f )"
 msgstr "Auswahl an Anzeige anpassen ( Alt + f )"
 
-#: cinelerra/editpanel.C:1021
+#: cinelerra/editpanel.C:899
 msgid "Drag and drop editing mode"
 msgstr "Drag and drop-Bearbeitungsmodus (ziehen und fallen lassen)"
 
-#: cinelerra/editpanel.C:1046
+#: cinelerra/editpanel.C:924
 msgid "Cut and paste editing mode"
 msgstr "Ausschneiden und Einfügen-Modus"
 
 # FIXME: tweaking?
-#: cinelerra/editpanel.C:1069
+#: cinelerra/editpanel.C:947
 msgid "Generate keyframes while tweeking"
 msgstr "Erzeuge Keyframes beim Justieren"
 
-#: cinelerra/editpanel.C:1090
+#: cinelerra/editpanel.C:968
 msgid "Lock labels from moving"
 msgstr "Sperre Marken vor Verschiebung"
 
@@ -6866,6 +6842,24 @@ msgstr "YUV"
 #: plugins/zoomblur/zoomblur.C:406
 msgid "Zoom Blur"
 msgstr "Zoom-Unschärfe"
+
+#~ msgid "Lift"
+#~ msgstr "Anheben"
+
+#~ msgid "Extract"
+#~ msgstr "Extrahieren"
+
+#~ msgid "Append to end of track"
+#~ msgstr "Anhängen an das Ende der Spur"
+
+#~ msgid "Insert before beginning of track"
+#~ msgstr "Einfügen vor dem Beginn der Spur"
+
+#~ msgid "Set transition"
+#~ msgstr "Übergang festlegen"
+
+#~ msgid "Set presentation up to current position"
+#~ msgstr "Präsentation bis zur aktuellen Position festlegen"
 
 #~ msgid "Progressive"
 #~ msgstr "Progressiv"
